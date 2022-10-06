@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+<main> 
+    <canvas id = "barra_topo"></canvas>
+    <canvas id = "quadrado"></canvas>
+    <p id = "inscrever" > Inscreva-se</p>
+    <form id = "form_inscrever">
+        <label id = "label_nome" > Nome</label><br>
+        <input type="text" id = "input_nome"><br>
+
+        <label id = "label_email">Email</label><br>
+        <input type="text" id = "input_email"><br>
+
+        <label id = "label_senha">Senha</label>
+        <input type="password" id = "input_senha">
+
+        <img src="/img/esconder.svg" id = "icone_d_olho" alt="icone de um olho">
+
+        <label id = label_cep>cep</label> 
+        <label id = "label_numero"> Numero </label><br>
+        
+        <input type="text" id = "input_cep"> 
+        <input type="text" id = "input_numero"><br>
+
+        <label id = "label_rua">Rua</label><br>
+        <input type="text" id  = "input_rua"><br>
+
+        <label id = "label_cidade">Cidade</label> <br>
+       <select  id="select_cidade">
+            <option value = " ">Selecione uma Cidade</option>
+            <option value="saopaulo">São Paulo</option>
+            <option value="riodejaneiro">Rio de Janeiro</option>
+            <option value="salvador">Salvador</option>
+            <option value="blumenau">Blumenau</option>
+       </select>
+        <input type="checkbox"  id="input_checkbox">
+        <label id = "label_concordo">Cocordo com os Termos e Condições</label>
+       
+        <input type= "submit" value = "Casdastrar Conta" id="cadastrar">
+    </form>
+</main>
+</body>
+</html>
